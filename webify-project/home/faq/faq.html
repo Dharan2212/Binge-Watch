@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FAQ</title>
+    <!-- binge watch logo -->
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="faq.css">
+</head>
+<body>
+    <div class="container" id="top">
+        <div class="page-header">
+            <h1>
+                <span> FAQ</span>
+                <small>
+                    <a href="#" target="_blank">
+                        Powered by BingeWatch
+                    </a>
+                </small>
+            </h1>
+            <form role="form" class="form-group">
+                <input id="search" name="filter" class="form-control" type="search" placeholder="Search..." />
+            </form>
+            <ul id="short-list" class="list-group">
+                <li class="list-group-item">
+                    <span class="badge">Upvotes</span> Question
+                </li>
+            </ul>
+        </div>
+        <ul id="list"></ul>
+        <a class="back-to-top glyphicon glyphicon-circle-arrow-up" href="#top"></a>
+    </div>
+
+
+    <div id="loading">
+        <i class="glyphicon glyphicon-refresh glyphicon-spin"></i>
+     <span></span>
+    </div>
+
+</body>
+</html>

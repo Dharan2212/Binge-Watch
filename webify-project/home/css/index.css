@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+#header-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../home/images/action.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: calc(100vh - 4.45rem);
+}
+
+#header-img .display-1{
+    position: relative;
+    text-align: center;
+    margin-top: 8%;
+}
+
+
+/* Typewriter Font */
+
+#typewriter {
+    font-weight: 600;
+}
+

@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono);
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+code {
+    font-family: "Droid Sans Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  Index Link List
+-------------------------------------------------- */
+
+.question-anchor {
+    display: block;
+}
+
+/*  Q & A Panels
+-------------------------------------------------- */
+
+#list {
+    padding-left: 0;
+}
+
+#list>li {
+    list-style-type: none;
+}
+
+.answers {
+    padding-right: 2em;
+}
+
+.list-group-item {
+    padding: 0.35em;
+}
+
+.panel-heading {
+    position: sticky;
+    top: 0;
+}
+
+.panel-heading span {
+    float: right;
+}
+
+/* Back to the top button
+-------------------------------------------------- */
+
+.back-to-top {
+    background: white;
+    border-radius: 100%;
+    bottom: 0.35em;
+    font-size: 3em;
+    opacity: 0.65;
+    position: fixed;
+    right: 0.35em;
+    text-decoration: none !important;
+    top: auto;
+    z-index: 2;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+}
+
+/* Made-by banner
+-------------------------------------------------- */
+
+
+/*  "Loading" panel
+-------------------------------------------------- */
+
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: none;
+    background-color: rgba(225, 225, 225, 0.35);
+    display: none;
+    padding-top: 15%;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+}
+
+#loading .glyphicon-spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@media (min-width: 900px){
+    html{
+        display: block;
+        padding: 10px 35px;
+        letter-spacing: 1px;
+    }
+}
