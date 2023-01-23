@@ -25,4 +25,50 @@ html {
 #typewriter {
     font-weight: 600;
 }
+@media (min-width: 300px) {
+    #typewriter{
+        padding-top: 20%;
+        font-size: 40px;
+    }
+}
 
+@media (min-width: 337px) {
+    #typewriter{
+        padding-top: 20%;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 357px) {
+    #typewriter{
+        padding-top: 20%;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 900px) {
+    #typewriter{
+        padding-top: 8%;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    #typewriter{
+        padding-top: 8%;
+    }
+}
+
+
+@media (min-width: 1085px) {
+    #typewriter{
+        padding-top: 8%;
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #typewriter{
+        padding-top: 5%;
+    }
+}
